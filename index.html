@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contenedor ejercicios</title>
+</head>
+<script src="tablaMultiplicacion.js"></script>
+<script src="cambiarColorFondo.js"></script>
+<script src="contadorClicks.js"></script>
+<script src="checkContraseña.js"></script>
+<body>
+    <div id="ejercicio1">
+        <lader>Ingresar un numero:</lader>
+        <input type="number" id="numero">
+        <button id="boton">Generar tabla de multiplicar</button>
+        <table id="tablaMultiplicar">
+            <!-- Aqui ira la tabla -->
+        </table>
+    </div>
+    <br /><br /><br />
+    <div id="ejercicio2">
+        <button id="fondo">Cambiar color de fondo</button>
+    </div>
+    <br /><br /><br />
+    <div id="ejercicio3">
+        <button id="botonClick">Clickeame</button>
+        <p>Contador de clicks: <span id="contador">0</span></p>
+    </div>
+    <br /><br /><br />
+    <div>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario">
+        <br />
+        <br />
+        <form>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña">
+            <button type="button" id="verificar">Verificar</button>
+            <p id="mensaje"></p>
+        </form>
+    </div>
+</body>
+</html>
